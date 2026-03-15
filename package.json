@@ -1,16 +1,20 @@
 {
   "name": "conan-skill-weather",
   "version": "1.0.0",
-  "description": "Weather skill for Conan AI agent — real-time weather via OpenWeatherMap",
+  "description": "Weather skill for Conan AI agent — real-time weather and 3-day forecast via OpenWeatherMap",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["conan-skill", "weather", "ai-agent", "conan-ai"],
-  "author": "Hollat",
+  "keywords": ["conan-skill", "weather", "ai-agent", "conan-ai", "openweathermap"],
+  "author": "Amr Lotfy",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmrLotfy/conan-skill-weather.git"
+  },
+  "homepage": "https://github.com/AmrLotfy/conan-skill-weather#readme",
+  "bugs": { "url": "https://github.com/AmrLotfy/conan-skill-weather/issues" },
   "type": "commonjs",
+  "engines": { "node": ">=18" },
   "dependencies": {
-    "axios": "^1.13.6"
+    "axios": "^1.6.0"
   }
 }
